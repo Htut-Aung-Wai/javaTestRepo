@@ -23,4 +23,6 @@ public class small_function
         System.out.println("Number is "+c);
 
     }
+
+
 }
