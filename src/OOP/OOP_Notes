@@ -1,0 +1,37 @@
+<> refer to Title
+[] refer to example java file
+() refer to description
+
+<Constructor>
+
+In two parameter constructor wrong one variable and don't test other variable and return so if first variable is wrong ,the other value is not added and returned its default
+[Account.java]
+
+<Static Variable>
+
+private static int count = 0; ( in every instance and function in class that use this variable is effect .Like this is effect only one class that varible is declared and its value is changed whenever instance are called
+like one instance plus 1 and the variable become 1 and the other instance add and it become 2.)
+[Counter.java]
+
+in static when put static keyword in front of any that is only usuable in the class that was declared and no other class can change its static
+
+<Inheritance>
+
+ child class extends parent class
+
+ <Abstract>
+ abstract class className{  }
+ child class extends parent class
+
+ <access level>
+ private: The variable or method is accessible only within the same class.
+ default (package-private): The variable or method is accessible within the same package.
+ protected: The variable or method is accessible within the same package and by subclasses, even if they are in different packages.
+ public: The variable or method is accessible from anywhere.
+
+ <interface>
+ interface animal {}
+ class Dog implements animal {}
+
+
+
